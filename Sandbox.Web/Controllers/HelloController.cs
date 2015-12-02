@@ -18,5 +18,9 @@ namespace Sandbox.Web.Controllers
             return Content("handshake");
         }
 
+        public ActionResult Bow()
+        {
+            return Content("bow");
+        }
     }
 }
