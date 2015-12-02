@@ -12,5 +12,11 @@ namespace Sandbox.Web.Controllers
         {
             return Content("Bye!");
         }
+
+        public ActionResult HandShake()
+        {
+            return Content("handshake");
+        }
+
     }
 }
