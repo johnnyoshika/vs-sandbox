@@ -22,5 +22,10 @@ namespace Sandbox.Web.Controllers
         {
             return Content("bow");
         }
+
+        public ActionResult Foo()
+        {
+            return Content("Foo");
+        }
     }
 }
