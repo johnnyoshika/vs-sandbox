@@ -54,12 +54,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sandbox.Web\Sandbox.Web.csproj">
-      <Project>{e24e1cf5-c455-47fc-b096-1a4eefae6dd5}</Project>
-      <Name>Sandbox.Web</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <Choose>
