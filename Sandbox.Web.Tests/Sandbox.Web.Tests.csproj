@@ -56,6 +56,12 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sandbox.Web2\Sandbox.Web2.csproj">
+      <Project>{c70de649-dc77-499a-b1ba-b3b33730d868}</Project>
+      <Name>Sandbox.Web2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
