@@ -10,7 +10,8 @@ namespace Sandbox.Web2.Controllers
     {
         public ActionResult Index()
         {
-            return Content("Hello!!!");
+            var greeting = "Hello :-)";
+            return Content(greeting);
         }
     }
 }
